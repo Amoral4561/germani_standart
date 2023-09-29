@@ -8,84 +8,71 @@
   <link rel="stylesheet" href="/src/css/style.css">
   <title>Немецкий стандарт</title>
 </head>
-<body>
   <!-- первая секция -->
-  <section class="main-section">
+
+  
+  <header class="main-section">
     <!-- style = "max-with: 1442px;" -->
     <div class="container-promotion">
     <div class="container">
-    <nav class="navbar navbar-expand-lg  bg-white" style="--bs-bg-opacity: .5;">
+    <nav class="navbar navbar-expand-lg  bg-white" style=" width: 100% ; --bs-bg-opacity: .5;">
       <!-- лого сайта -->
       <div class="container-fluid ">
-        <a class="navbar-brand" href="#">
-          <img src="/src/icon/Group 1.svg" alt="">
-        </a>
+        
       <!-- создание иконок нав бара -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </button> -->
+        <!-- <nav class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item col-3 text-center">
               <a class="nav-link active" aria-current="page" href="#">Главная</a>
             </li>
             <li class="nav-item col-3 text-center">
-              <a class="nav-link" href="#">Акция</a>
+              <a class="nav-link" href="/src/index.html">Акция</a>
+            </li>
+            <li class="nav-item col-3 text-center">
+              <a class="nav-link" href="#">Материалы</a>
             </li>
             <li class="nav-item col-3 text-center">
               <a class="nav-link" href="#">Как заказать</a>
             </li>
             <li class="nav-item col-3 text-center">
-              <a class="nav-link" href="#">Отзывы</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Подробнее о нас
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Материалы</a></li>
-                <li><a class="dropdown-item" href="#"></a>Наши работы</li>
-              </ul>
+              <a class="nav-link" href="#">Наши работы</a>
             </li>
             <li class="nav-item col-3 text-center">
-              <a class="nav-link active" aria-current="page" href="#"></a>
+              <a class="nav-link" href="#">Отзывы</a>
             </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
-            <button class="btn btn-outline-success" type="submit">Поиск</button>
-          </form>
+            <li class="nav-item col-3 text-center">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+        </nav> -->
+        <div class="container">
+          <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-between py-3 mb-4 border-bottom navbar-expand-lg">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+        
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+              <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+              <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+              <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+              <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+            </ul>
+        
+            <div class="col-md-3 text-end">
+              <button type="button" class="btn btn-outline-primary me-2">Login</button>
+              <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+          </header>
         </div>
         
       </div>
     </nav>
-
-    <form>
-      <div class="holder-info">
-        <div class="holder-info_text-con text-con">
-          <p>Кухни на заказ<br>
-          <span class="highlighted-text">в Краснодаре</span></p>
-        </div>
-        <div class="holder-info_points point">
-          <div class="holder-info__col-auto">
-            <p>
-              <img src="/src/icon/money2.svg" alt="Другая иконка">
-              Цена от <span class="highlighted-text">19990 ₽ м./п.</span>
-            </p>
-            <p>
-              <img src="/src/icon/secondary.svg" alt="Еще одна иконка">
-              Изготовим от <span class="highlighted-text">7 дней</span>
-            </p>
-            <p>
-              <img src="/src/icon/warranty.svg" alt="Другая иконка">
-              Гарантия <span class="highlighted-text">2 года</span>
-            </p>
-          </div>
-        </div>
-      </div>
-    </form>
     </div>
-    <div class="holder-select row" >
+    <!-- форма обращение вверх сртраницв -->
+    <form class="holder-select row" >
       <div class="holder-select__capital text-p" >
           <p>Акция</p>
         </div>
@@ -102,38 +89,63 @@
           </div>
         </div>
       </div>
-       
     </form>
-    </div>
+    </form>
   </div>
+<!-- плавающая форма -->
+  <form class="holder-info">
+    <div class="holder-info_text-con text-con">
+      <p>Кухни на заказ<br>
+      <span class="highlighted-text">в Краснодаре</span></p>
+    </div>
+    <div class="holder-info_points point">
+      <div class="holder-info__col-auto">
+        <p>
+          <img src="/src/icon/money2.svg" alt="Другая иконка">
+          Цена от <span class="highlighted-text">19990 ₽ м./п.</span>
+        </p>
+        <p>
+          <img src="/src/icon/secondary.svg" alt="Еще одна иконка">
+          Изготовим от <span class="highlighted-text">7 дней</span>
+        </p>
+        <p>
+          <img src="/src/icon/warranty.svg" alt="Другая иконка">
+          Гарантия <span class="highlighted-text">2 года</span>
+        </p>
+      </div>
+    </div>
+  </form>
+  </header>
+<!-- начала основного контента -->
+<main>
+<!-- карточки с данными о мебели -->
   <div class=" container-cards row justify-content-center">
-  <div class="card col-3" style="width: 18rem;">
-    <img src="/src/icon/money.svg" class="icon icon-font" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Заголовок карточки</h5>
+    <div class="card col-3" style="width: 18rem;">
+      <img src="/src/icon/money.svg" class="icon icon-font" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Заголовок карточки</h5>
+      </div>
     </div>
-  </div>
-  <div class="card col-3" style="width: 18rem;">
-    <img src="/src/icon/factory.svg" class="icon icon-font " alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Заголовок карточки</h5>
+    <div class="card col-3" style="width: 18rem;">
+      <img src="/src/icon/factory.svg" class="icon icon-font " alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Заголовок карточки</h5>
+      </div>
     </div>
-  </div>
-  <div class="card col-3 " style="width: 18rem;">
-    <img src="/src/icon/mechanism.svg" class="icon icon-font " alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Заголовок карточки</h5>
+    <div class="card col-3 " style="width: 18rem;">
+      <img src="/src/icon/mechanism.svg" class="icon icon-font " alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Заголовок карточки</h5>
+      </div>
     </div>
-  </div>
-  <div class="card col-3 " style="width: 18rem;">
-    <img src="/src/icon/time.svg" class="icon icon-font " alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Заголовок карточки</h5>
+    <div class="card col-3 " style="width: 18rem;">
+      <img src="/src/icon/time.svg" class="icon icon-font " alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Заголовок карточки</h5>
+      </div>
     </div>
-  </div>
-  </div>
-</div>
-  </section>
+    </div>
+
   <!-- Создание второй части -->
   <section class="container-assortment">
 <div class="description-production container-fluid">
@@ -272,6 +284,7 @@
     </div>
     </div>
   </section>
+</main>
   <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   
 </body>

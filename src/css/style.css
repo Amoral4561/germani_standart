@@ -368,11 +368,14 @@ table {
 .container-promotion {
   height: 700px;
   margin-bottom: 56px;
-  background-image: url("/src/img/promothion.svg");
+  background-image: url("/src/img/shutterstock.svg");
   background-image-width: 100%;
   background-image-height: 100%;
 }
 
+.container {
+  max-width: 1920px;
+}
 .bg-success {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;

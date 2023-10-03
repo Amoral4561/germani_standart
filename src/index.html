@@ -48,7 +48,7 @@
             </li>
         </nav> -->
         <div class="container">
-          <header class="d-flex flex-wrap align-items-center justify-content-lg-between justify-content-lg-between py-3 mb-4 border-bottom" style="border-bottom: red;">
+          <header class="d-flex pb-0 pt-0 mb-2 flex-wrap align-items-center justify-content-lg-between border-bottom">
             <a href="" class="d-flex align-items-center">
               <a class="navbar-brand" href="#">
                 <img src="/src/icon/Group 1.svg" alt="Bootstrap" width="180" height="70">
@@ -106,15 +106,15 @@
       <div class="holder-info__col-auto">
         <p>
           <img src="/src/icon/money2.svg" alt="Другая иконка">
-          Цена от <span class="highlighted-text">19990 ₽ м./п.</span>
+          Цена от <span class="red-text">19990 ₽ м./п.</span>
         </p>
         <p>
           <img src="/src/icon/secondary.svg" alt="Еще одна иконка">
-          Изготовим от <span class="highlighted-text">7 дней</span>
+          Изготовим от <span class="red-text">7 дней</span>
         </p>
         <p>
           <img src="/src/icon/warranty.svg" alt="Другая иконка">
-          Гарантия <span class="highlighted-text">2 года</span>
+          Гарантия <span class="red-text">2 года</span>
         </p>
       </div>
     </div>
@@ -124,97 +124,161 @@
 <main>
 <!-- карточки с данными о мебели -->
 
-  <div class=" container-cards row justify-content-center text-center ">
-    <div class="card col-2" style="width: 18rem;">
+  <div class=" container-cards row justify-content-center text-center mb-5">
+    <div class="card col-2 p-0 justify-content-center" style="width: 13rem; height: 10rem;">
       <div class="d-flex justify-content-center align-items-center">
       <img src="/src/icon/money.svg" class="icon icon-font " alt="...">
       </div>
-      <div class="card-body">
-        <h5 class="card-title">Заголовок карточки</h5>
-      </div>
+        <h5 class="card-title mb-0">Рассрочка 0% <br> до 12 месяцев</h5>
     </div>
-    <div class="card col-3" style="width: 18rem;">
+    <div class="card col-2 p-0 justify-content-center" style="width: 13rem; height: 10rem;">
       <div class="d-flex justify-content-center align-items-center">
       <img src="/src/icon/factory.svg" class="icon icon-font " alt="...">
       </div>
-      <div class="card-body">
-        <h5 class="card-title">Заголовок карточки</h5>
-      </div>
+        <h5 class="card-title mb-0">Устанавливаем кухни<br> с 2013 года</h5>
     </div>
-    <div class="card col-3 " style="width: 18rem;">
+    <div class="card col-2 p-0 justify-content-center " style="width: 13rem; height: 10rem;"">
       <div class="d-flex justify-content-center align-items-center">
       <img src="/src/icon/mechanism.svg" class="icon icon-font " alt="...">
       </div>
-      <div class="card-body">
-        <h5 class="card-title">Заголовок карточки</h5>
-      </div>
+        <h5 class="card-title">Бесплатная<br>установка</h5>
     </div>
-    <div class="card col-3 " style="width: 18rem;">
+    <div class="card col-2 p-0 justify-content-center " style="width: 13rem; height: 10rem;">
       <div class="d-flex justify-content-center align-items-center">
       <img src="/src/icon/time.svg" class="icon icon-font " alt="...">
       </div>
-      <div class="card-body">
-        <h5 class="card-title">Заголовок карточки</h5>
-      </div>
+        <h5 class="card-title">Срок службы<br>20 ле</h5>
     </div>
     </div>
 
   <!-- Создание второй части -->
-  <section class="container-assortment">
+  <section class="container-assortment row">
+  <div class="d-flex" style="padding-left: 440px; padding-right: 300px;">
+    <div class="d-flex row justify-content-start" style=" max-width: 1135px;">
+    <h1 class="text-title" style="font-size: 48px;">Какие кухни<br><span style="color: red;">мы производим?</span></h1>
+    <div class="divider"></div>
+  </div>
+  </div>
+  <!-- карточки с готовыми решениями  -->
 <div class="description-production container-fluid">
+  
   <div class=" description-production__cards cards row justify-content-center" style="max-width: 1142px;">
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+    <!-- 1 -->
+    <div class="card p-0" style="width: 18rem; border-radius: 15px">
+      <img src="/src/img/card-1.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">материал фасадов:</span> пластик</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">фурнитура:</span> Fennel</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">столешниц:</span> Плостоформинг</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">Цена:</span> от <span class="strikeouts">26 850</span><span class="red-text"> 19 990 ₽ м./п.</span></p>
+        <div class="card-body__buttons buttons d-grid">
+        <button type="button" class="btn btn-outline-danger mb-2" style="width: 70%;">Получить каталог</button>
+        <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+      </div>
       </div>
     </div>
-    <div class="card " style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card p-0 " style="width: 18rem; border-radius: 15px">
+      <img src="/src/img/card-2.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">материал фасадов:</span> пластик</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">фурнитура:</span> Fennel</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">столешниц:</span> Плостоформинг</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">Цена:</span> от <span class="strikeouts">26 850</span><span class="red-text"> 19 990 ₽ м./п.</span></p>
+        <div class="card-body__buttons buttons d-grid">
+        <button type="button" class="btn btn-outline-danger mb-2" style="width: 70%;">Получить каталог</button>
+        <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+      </div>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card p-0" style="width: 18rem; border-radius: 15px"">
+      <img src="/src/img/card-3.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">материал фасадов:</span> пластик</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">фурнитура:</span> Fennel</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">столешниц:</span> Плостоформинг</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">Цена:</span> от <span class="strikeouts">26 850</span><span class="red-text"> 19 990 ₽ м./п.</span></p>
+        <div class="card-body__buttons buttons d-grid">
+        <button type="button" class="btn btn-outline-danger mb-2" style="width: 70%;">Получить каталог</button>
+        <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+      </div>
       </div>
     </div>
-    <div class="card my-gy" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card p-0 my-gy" style="width: 18rem; border-radius: 15px">
+      <img src="/src/img/card-4.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">материал фасадов:</span> пластик</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">фурнитура:</span> Fennel</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">столешниц:</span> Плостоформинг</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">Цена:</span> от <span class="strikeouts">26 850</span><span class="red-text"> 19 990 ₽ м./п.</span></p>
+        <div class="card-body__buttons buttons d-grid">
+        <button type="button" class="btn btn-outline-danger mb-2" style="width: 70%;">Получить каталог</button>
+        <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+      </div>
       </div>
     </div>
-    <div class="card my-gy" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card p-0 my-gy" style="width: 18rem; border-radius: 15px">
+      <img src="/src/img/card-5.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">материал фасадов:</span> пластик</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">фурнитура:</span> Fennel</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">столешниц:</span> Плостоформинг</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">Цена:</span> от <span class="strikeouts">26 850</span><span class="red-text"> 19 990 ₽ м./п.</span></p>
+        <div class="card-body__buttons buttons d-grid">
+        <button type="button" class="btn btn-outline-danger mb-2" style="width: 70%;">Получить каталог</button>
+        <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+      </div>
       </div>
     </div>
-    <div class="card my-gy" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card p-0 my-gy" style="width: 18rem; border-radius: 15px">
+      <img src="/src/img/card-6.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">материал фасадов:</span> пластик</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">фурнитура:</span> Fennel</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">столешниц:</span> Плостоформинг</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">Цена:</span> от <span class="strikeouts">26 850</span><span class="red-text"> 19 990 ₽ м./п.</span></p>
+        <div class="card-body__buttons buttons d-grid">
+        <button type="button" class="btn btn-outline-danger mb-2" style="width: 70%;">Получить каталог</button>
+        <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+      </div>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card p-0" style="width: 18rem; border-radius: 15px">
+      <img src="/src/img/card-7.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">материал фасадов:</span> пластик</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">фурнитура:</span> Fennel</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">столешниц:</span> Плостоформинг</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">Цена:</span> от <span class="strikeouts">26 850</span><span class="red-text"> 19 990 ₽ м./п.</span></p>
+        <div class="card-body__buttons buttons d-grid">
+        <button type="button" class="btn btn-outline-danger mb-2" style="width: 70%;">Получить каталог</button>
+        <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+      </div>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card p-0" style="width: 18rem; border-radius: 15px">
+      <img src="/src/img/card-8.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">материал фасадов:</span> пластик</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">фурнитура:</span> Fennel</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">столешниц:</span> Плостоформинг</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">Цена:</span> от <span class="strikeouts">26 850</span><span class="red-text"> 19 990 ₽ м./п.</span></p>
+        <div class="card-body__buttons buttons d-grid">
+        <button type="button" class="btn btn-outline-danger mb-2" style="width: 70%;">Получить каталог</button>
+        <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+      </div>
       </div>
     </div>
-    <div class="card gy-end" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card  p-0 gy-end" style="width: 18rem; border-radius: 15px">
+      <img src="/src/img/card-9.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">материал фасадов:</span> пластик</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">фурнитура:</span> Fennel</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">столешниц:</span> Плостоформинг</p>
+        <p class="card-body__card-text card-text"><span class="transparency-text">Цена:</span> от <span class="strikeouts">26 850</span><span class="red-text"> 19 990 ₽ м./п.</span></p>
+        <div class="card-body__buttons buttons d-grid">
+        <button type="button" class="btn btn-outline-danger mb-2" style="width: 70%;">Получить каталог</button>
+        <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+      </div>
       </div>
     </div>
   </div>

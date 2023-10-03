@@ -3,6 +3,14 @@
 
 *
  box-sizing: border-box
+// класс прозрачности
+.transparency-text
+// красный текст
+.red-text
+  color: red
+  font-size: 20px
+// класс зачеркивания 
+.strikeouts
 
 .container-promotion
     height: 700px
@@ -12,7 +20,8 @@
         height: 100%
 .container
   max-width: 1920px
-  img 
+  max-height: 150px
+
   
 .bg-success 
   --bs-bg-opacity: 1
@@ -24,7 +33,19 @@
   margin-bottom: 130px
 .card
   margin-right: 46px
+.card-body
+  &__card-text
+    margin-bottom: 17px
+    &:last-child
+      
+.divider 
+  width: 71px
+  height: 4px
+  background-color: red
+  margin-top: 10px
+  margin-bottom: 10px
   
+
 .container-assortment
   display: flex
   max-height: 2355px
@@ -95,8 +116,6 @@
     font-size: 60px
   img
     margin-right: 15px
-.highlighted-text
-    color: red
 
 .holder-info_text-con p 
   font-size: 60px

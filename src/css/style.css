@@ -365,6 +365,11 @@ table {
   box-sizing: border-box;
 }
 
+.red-text {
+  color: red;
+  font-size: 20px;
+}
+
 .container-promotion {
   height: 700px;
   margin-bottom: 56px;
@@ -375,7 +380,9 @@ table {
 
 .container {
   max-width: 1920px;
+  max-height: 150px;
 }
+
 .bg-success {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
@@ -391,6 +398,17 @@ table {
 
 .card {
   margin-right: 46px;
+}
+
+.card-body__card-text {
+  margin-bottom: 17px;
+}
+.divider {
+  width: 71px;
+  height: 4px;
+  background-color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .container-assortment {
@@ -476,10 +494,6 @@ table {
 }
 .holder-info img {
   margin-right: 15px;
-}
-
-.highlighted-text {
-  color: red;
 }
 
 .holder-info_text-con p {

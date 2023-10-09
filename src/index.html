@@ -285,38 +285,68 @@
 </div>
   </section>
   <section class="third-section">
-    <div class="description-catalog container-fluid">
-      <div class=" description-catalog__content cards row justify-content-center" style="max-width: 1142px;">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Заголовок карточки</h5>
-            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-            <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Заголовок карточки</h5>
-            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-            <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Заголовок карточки</h5>
-            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-            <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+    <div class="third-section__cards-wrapper">
+      <!-- заголовок -->
+      <div class="third-section d-flex mb-my-50" style="padding-left: 440px; padding-right: 300px;">
+        <div class="d-flex row justify-content-start" style="max-width: 1135px;">
+          <h1 class="text-title" style="font-size: 48px;">Какие кухни<br><span style="color: red;">мы производим?</span></h1>
+          <div class="divider mb-5"></div>
+          <div class="third-section__subtitles" style="font-size: 28px;">
+            <p class="mb-my-20">Мы установили более 3000 кухонь на заказ!</p>
+            <p>Получите подробный каталог</p>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="wrapper row justify-content-center">
-      <div class="wrapper__wrapper-left wrapper-left">
-      <div class="wrapper-left__carusel carusel">
+    <!-- подзаголовки -->
+    <!-- карточки с готовыми решениями -->
+    <div class="third-section__description-production description-production container-fluid">
+      <div class="description-production__cards cards row justify-content-center" style="max-width: 1142px;">
+        <!-- 1 -->
+        <div class="card p-0" style="width: 18rem; height: 22rem; border-radius: 15px">
+          <img src="/src/img/card-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-body__card-text card-text">Современные кухни</h1>
+            <p class="card-body__card-text card-text">У нас более <span class="red-text" style="font-size: 18px;">650</span> моделей<br>cовременных кухонь.</p>
+            <div class="card-body__buttons buttons d-grid">
+              <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="card p-0" style="width: 18rem; height: 22rem; border-radius: 15px">
+          <img src="/src/img/card-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-body__card-text card-text">Кухни Лофт</h1>
+            <p class="card-body__card-text card-text">У нас более <span class="red-text" style="font-size: 18px;">470</span> моделей кухонь<br>в стиле Лофт.</p>
+            <div class="card-body__buttons buttons d-grid">
+              <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="card p-0" style="width: 18rem; height: 22rem; border-radius: 15px">
+          <img src="/src/img/card-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-body__card-text card-text">Классические кухни</h1>
+            <p class="card-body__card-text card-text">У нас более <span class="red-text" style="font-size: 18px;">730</span> моделей<br> классических кухонь.</p>
+            <div class="card-body__buttons buttons d-grid">
+              <button type="button" class="btn btn-danger" style="width: 70%;">Расчитать стоимость</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper row justify-content-center">
+    <div class="wrapper__heading heading d-flex mb-my-50" style="padding-left: 440px; padding-right: 300px;">
+      <div class="d-flex row justify-content-start" style="max-width: 1135px;">
+        <h1 class="text-title" style="font-size: 48px;">Не знаете какой выбрать<br><span style="color: red;"> дизайн кухни?</span></h1>
+        <div class="divider mb-5"></div>
+      </div>
+    </div>
+    <div class="wrapper__wrapper-left wrapper-left">
+      <div class="wrapper-left__carusel carusel mb-my-50">
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -339,28 +369,57 @@
           </button>
         </div>
       </div>
+      <div class="wrapper-left__text">
+        <h1 class="text"><span class="red-text">Юлия</span>, Дизайнер кухонь, работает с 2013 года.</h1>
+      </div>
     </div>
-    <div class="wrapper__wrapper-right wrapper-right">
-      <!-- <div class="card" aria-hidden="true">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title placeholder-glow">
-            <span class="placeholder col-6"></span>
-          </h5>
-          <p class="card-text placeholder-glow">
-            <span class="placeholder col-7"></span>
-            <span class="placeholder col-4"></span>
-            <span class="placeholder col-4"></span>
-            <span class="placeholder col-6"></span>
-            <span class="placeholder col-8"></span>
-          </p>
-          <a class="btn btn-primary disabled placeholder col-6"></a>
+    <div class="wrapper__wrapper-right wrapper-right ">
+      <div class="wrapper-right__right-first right-first">
+      <div class="wrapper-right__heding heading d-flex row">
+        <div class="d-flex row justify-content-start" style="max-width: 400px;">
+          <h1 class="text-title mb-my-15" style="font-size: 48px;">Обратитесь к нашим <br><span style="color: red;">дизайнерам!</span></h1>
+          <div class="wrapper-right__subtitles" style="font-size: 20px;">
+            <p class="subtitles">Более 3000 клиентов благодарны<br> нашим дизайнерам за:</p>
+          </div>
         </div>
-      </div> -->
-
+      <div class="wrapper-right__holder-info holder-info_points point">
+        <div class="holder-info__col-auto">
+          <p>
+            <img src="/src/icon/check_mark.svg" alt="Другая иконка">
+            Скрупулезную и терпеливую работу<br> по созданию проекта идеальной кухни.
+          </p>
+          <p>
+            <img src="/src/icon/check_mark.svg" alt="Еще одна иконка">
+            Подбор материалов с экономией до 60% без потери качества.
+          </p>
+          <p>
+            <img src="/src/icon/check_mark.svg" alt="Другая иконка">
+            100% соответствие дизайн-проекта с реальностью.
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="wrapper-right__the-second the-second"> 
+      <div class="wrapper-right__subtitles-down" style="font-size: 20px;">
+        <p class="subtitles-down">Оставьте свой номер телефона<br> и наш дизайнер свяжется<br> с Вами в ближайшее время</p>
+      </div>
+      <div class="the-second">
+      <div class="container card p-3" style="border-radius: 15px;">
+        <div class="the-second__buttons buttons ">
+          <div class="input-buttons">
+            <input type="text" class="form-control" placeholder="Введите номер" aria-label="Пример группы ввода" aria-describedby="btnGroupAddon2" style="width: 60%;">
+          </div>
+          <button type="button" class="btn btn-danger mb-2" style="width: 60%;">Рассчитать стоимость</button>
+          <button type="button" class="btn btn-outline-danger" style="width: 60%;">Получить каталог</button>
+        </div>
+      </div>
+      </div>
     </div>
     </div>
-  </section>
+  </div>
+  </div>
+  
 </main>
   <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   

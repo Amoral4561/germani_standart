@@ -370,6 +370,18 @@ table {
   font-size: 20px;
 }
 
+.mb-my-20 {
+  margin-bottom: 20px;
+}
+
+.mb-my-50 {
+  margin-bottom: 50px;
+}
+
+.mb-my-15 {
+  margin-bottom: 15px;
+}
+
 .container-promotion {
   height: 700px;
   margin-bottom: 56px;
@@ -403,6 +415,7 @@ table {
 .card-body__card-text {
   margin-bottom: 17px;
 }
+
 .divider {
   width: 71px;
   height: 4px;

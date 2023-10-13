@@ -454,7 +454,14 @@ table {
   max-width: 569px;
   max-height: 520px;
 }
-.carousel img {
+
+.circle-buttons {
+  max-width: 53px;
+  max-height: 53px;
+  background-color: #FFF;
+}
+
+img {
   max-width: 569px;
   max-height: 520px;
   width: auto;
@@ -462,6 +469,9 @@ table {
   margin: 0 auto;
 }
 
+.wrapper {
+  margin-bottom: 104px;
+}
 .wrapper__wrapper-left {
   max-width: 567px;
 }
@@ -560,4 +570,8 @@ table {
 .holder-info__icon {
   width: 32px;
   height: 32px;
+}
+
+.fourth-section {
+  background-image: url(/src/img/section-4/back.svg);
 }/*# sourceMappingURL=style.css.map */

@@ -370,6 +370,10 @@ table {
   font-size: 20px;
 }
 
+.mb-my-10 {
+  margin-bottom: 10px;
+}
+
 .mb-my-20 {
   margin-bottom: 20px;
 }
@@ -380,6 +384,10 @@ table {
 
 .mb-my-50 {
   margin-bottom: 50px;
+}
+
+.mb-my-60 {
+  margin-bottom: 60px;
 }
 
 .mb-my-15 {
